@@ -7,7 +7,7 @@
         <i class="fas fa-bars"></i>
     </label>
     <ul>
-        <li><a class="active" routerLink="/home-component">Home</a></li>
+        <li><a routerLink="/home-component">Home</a></li>
         <li><a routerLink="/about-component">About</a></li>
         <li>
             <div class="dropdown">
@@ -25,9 +25,9 @@
     <div class="dropdown">
         <a href="#"><img src="assets/images/bas1.png" alt="basket"></a>
         <div class="dropdown-content">
-            <a href="#">View Basket</a>
-            <a href="#">Check Out</a>
-            <a href="#">Continue Shopping</a>
+            <a routerLink="/viewbasket-component">View Basket</a>
+            <a routerLink="/checkout-component">Check Out</a>
+            <a routerLink="/all-component">Continue Shopping</a>
         </div>
     </div>
     <button class="bt1" routerLink="/login-form-component">Sign in/Sign up</button>

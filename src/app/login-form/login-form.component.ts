@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
 
+declare var switchForm: any;
 
 @Component({
   selector: 'app-login-form',
@@ -20,7 +21,7 @@ export class LoginFormComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-
+    new switchForm();
   }
   submitLogin(loginForm: NgForm) {
     console.log(this.form1);

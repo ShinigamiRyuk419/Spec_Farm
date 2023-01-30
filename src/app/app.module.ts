@@ -11,6 +11,9 @@ import { FruitsComponent } from './fruits/fruits.component';
 import { VegetablesComponent } from './vegetables/vegetables.component';
 import { FlowersComponent } from './flowers/flowers.component';
 import { SupportComponent } from './support/support.component';
+import { ViewbasketComponent } from './viewbasket/viewbasket.component';
+import { CheckoutComponent } from './checkout/checkout.component';
+import { AllComponent } from './all/all.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,10 @@ import { SupportComponent } from './support/support.component';
     FruitsComponent,
     VegetablesComponent,
     FlowersComponent,
-    SupportComponent
+    SupportComponent,
+    ViewbasketComponent,
+    CheckoutComponent,
+    AllComponent
   ],
   imports: [
     BrowserModule,

@@ -10,7 +10,7 @@ declare var showSlides: any;
 })
 export class AppComponent {
   title = 'SpecializationProject';
-  ngOnInit(): void {
+  ngOnInit() {
     new switchForm();
     new showSlides();
   }

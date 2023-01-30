@@ -1,0 +1,45 @@
+<div class="title">
+    <h1>Your Shopping Basket</h1>
+</div>
+
+
+<div class="tb1">
+    <table>
+        <tr class="first">
+          <th>Product</th>
+          <th>Name</th>
+          <th>Delivery Date</th>
+          <th>Price</th>
+          <th>Quantity</th>
+          <th>Amount</th>
+        </tr>
+        <tr class="c">
+          <td>Image1</td>
+          <td>Watermelon</td>
+          <td>01/30/2023</td>
+          <td>P 120</td>
+          <td><div class="quan">
+                <div class="q"><h2 style="color: red;cursor: pointer;" (click)="receiveSubtract()">-</h2></div>
+                <div class="q"><h2 [(ngModel)]= "inputValue">{{Score}} </h2></div>
+                <div class="q"><h2 style="color: green;cursor: pointer;" (click)="receiveAdd()">+</h2></div>
+          </div></td>
+          <td>P 240</td>
+        </tr>
+        <tr class="c">
+            <td>Image2</td>
+            <td>Pineapple</td>
+            <td>01/29/2023</td>
+            <td>P 130</td>
+            <td><div class="quan">
+                <div class="q"><h2 style="color: red;cursor: pointer;" (click)="receiveSubtract()">-</h2></div>
+                <div class="q"><h2>{{Score}}</h2></div>
+                <div class="q"><h2 style="color: green;cursor: pointer;" (click)="receiveAdd()">+</h2></div>
+          </div></td>
+            <td>P 390</td>
+        </tr>
+      </table>
+      <div class="sub">
+        <h4>SUBTOTAL: <h4>P 630</h4></h4>
+        <button>Check out</button>
+      </div>
+</div>

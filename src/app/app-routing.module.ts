@@ -7,6 +7,9 @@ import { VegetablesComponent } from './vegetables/vegetables.component';
 import { FlowersComponent } from './flowers/flowers.component';
 import { SupportComponent } from './support/support.component';
 import { LoginFormComponent } from './login-form/login-form.component';
+import { ViewbasketComponent } from './viewbasket/viewbasket.component';
+import { CheckoutComponent } from './checkout/checkout.component';
+import { AllComponent } from './all/all.component';
 
 const routes: Routes = [
   { path: 'home-component', component: HomeComponent },
@@ -16,6 +19,10 @@ const routes: Routes = [
   { path: 'flowers-component', component: FlowersComponent },
   { path: 'support-component', component: SupportComponent },
   { path: 'login-form-component', component: LoginFormComponent },
+  { path: 'viewbasket-component', component: ViewbasketComponent },
+  { path: 'checkout-component', component: CheckoutComponent },
+  { path: 'all-component', component: AllComponent }
+
 ];
 
 @NgModule({
