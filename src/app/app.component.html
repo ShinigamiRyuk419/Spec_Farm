@@ -1,39 +1,12 @@
-<nav>
-    <div class="logo">
-        <img src="assets/images/logo.png" alt="FarmToYours">
-    </div>
-    <input type="checkbox" id="click">
-    <label for="click" class="menu-btn">
-        <i class="fas fa-bars"></i>
-    </label>
-    <ul>
-        <li><a routerLink="/home-component">Home</a></li>
-        <li><a routerLink="/about-component">About</a></li>
-        <li>
-            <div class="dropdown">
-                <a href="#">All Products <i class="fa fa-angle-down"></i></a>
-                <div class="dropdown-content">
-                    <a routerLink="/fruits-component">Fruits</a>
-                    <a routerLink="/vegetables-component">Vegetables</a>
-                    <a routerLink="/flowers-component">Flowers</a>
-                </div>
-            </div>
-        </li>
-        <li><a routerLink="/support-component">Customer Support</a></li>
+<app-header></app-header>
 
-    </ul>
-    <div class="dropdown">
-        <a href="#"><img src="assets/images/bas1.png" alt="basket"></a>
-        <div class="dropdown-content">
-            <a routerLink="/viewbasket-component">View Basket</a>
-            <a routerLink="/checkout-component">Check Out</a>
-            <a routerLink="/all-component">Continue Shopping</a>
-        </div>
-    </div>
-    <button class="bt1" routerLink="/login-form-component">Sign in/Sign up</button>
-</nav>
+
 <router-outlet></router-outlet>
 
 
-<!-- <app-home></app-home> -->
+<!-- <app-products></app-products> -->
+<!-- <lib-ng-toast></lib-ng-toast> -->
+
+
+
 <!-- <app-login-form></app-login-form> -->

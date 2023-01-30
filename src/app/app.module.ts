@@ -15,6 +15,9 @@ import { ViewbasketComponent } from './viewbasket/viewbasket.component';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { AllComponent } from './all/all.component';
 
+import { HeaderComponent } from './header/header.component';
+import { SuppliesComponent } from './supplies/supplies.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +30,9 @@ import { AllComponent } from './all/all.component';
     SupportComponent,
     ViewbasketComponent,
     CheckoutComponent,
-    AllComponent
+    AllComponent,
+    HeaderComponent,
+    SuppliesComponent
   ],
   imports: [
     BrowserModule,

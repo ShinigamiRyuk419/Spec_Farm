@@ -10,6 +10,7 @@ import { LoginFormComponent } from './login-form/login-form.component';
 import { ViewbasketComponent } from './viewbasket/viewbasket.component';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { AllComponent } from './all/all.component';
+// import { ProductsComponent } from './products/products.component';
 
 const routes: Routes = [
   { path: 'home-component', component: HomeComponent },
